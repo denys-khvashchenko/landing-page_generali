@@ -1,0 +1,30 @@
+{
+  "name": "landing-page_generali",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.7"
+  },
+  "dependencies": {
+    "intl-tel-input": "^24.5.0",
+    "ion-rangeslider": "^2.3.1",
+    "jquery": "^3.7.1",
+    "sass": "^1.78.0",
+    "swiper": "^11.1.14"
+  }
+}
