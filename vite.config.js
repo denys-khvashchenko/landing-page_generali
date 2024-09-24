@@ -1,10 +1,7 @@
-import { defineConfig } from 'vite';
-
-export default defineConfig({
+export default {
+  base: '/landing-page_generali/',
+  
   build: {
-    outDir: '../dist',
-  },
-  server: {
-    open: true,
-  },
-});
+    outDir: 'dist'
+  }
+}
